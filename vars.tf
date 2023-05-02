@@ -41,3 +41,11 @@ variable "virtual_machine_iso_sku" {
 variable "virtual_machine_iso_version" {
   type        = string
 }
+
+variable "virtual_machine_admin_username" {
+  type        = string
+}
+
+variable "virtual_machine_admin_password" {
+  type        = string
+}
